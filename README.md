@@ -41,6 +41,8 @@ trong module
     Xây dựng các hàm cần thiết trong controller
 
 ! Khi trong các hàm có các điều kiện giống nhau dẫn đến gửi phản hồi lại nhiều lần dẫn đến lỗi "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client"
+
+
 5. Đăng kí tài khoản
   - Định nghĩa schema cho cho đối tượng người dùng trong cơ sở dữ liệu MongoDB (user/Module/src)
   - Sử dụng thư viện Joi để kiểm tra dữ liệu trong quá trình đăng kí(auth/schema/src)
